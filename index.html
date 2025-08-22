@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jird News Network</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        color: #111;
+    }
+
+    header {
+        background: #4b0082;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        text-shadow: 1px 1px 5px #000;
+    }
+
+    nav {
+        background: #222;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+
+    .breaking-news {
+        background: #ff0000;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        animation: blink 1.5s infinite;
+        margin-bottom: 20px;
+    }
+
+    @keyframes blink {
+        0%, 50%, 100% { opacity: 1; }
+        25%, 75% { opacity: 0.5; }
+    }
+
+    .top-stories {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .story {
+        background: white;
+        flex: 1 1 45%;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        border-left: 6px solid #4b0082;
+    }
+
+    .story img {
+        width: 20%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .story h2 {
+        margin-top: 0;
+        color: #4b0082;
+        font-size: 1.4em;
+    }
+
+    .story p {
+        font-size: 1em;
+        line-height: 1.4em;
+    }
+	
+
+
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Jird News Network</h1>
+    <p>Your source for all things Jird</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="sightings.html">Sightings</a>
+    <a href="lore.html">Lore</a>
+    <a href="archives.html">Archives</a>
+</nav>
+
+<div class="container">
+
+    <div class="breaking-news">
+        BREAKING: Strange purple figure seen hovering over Jird Land
+    </div>
+
+    <div class="top-stories">
+        <div class="story">
+            <img src="Sighting_AGF46D.png" alt="Jird Image">
+            <h2>Mysterious Purple Entity Spotted</h2>
+            <p>Locals report seeing a purple entity moving through Jird Land skies. Dubbed “The Jird,” it only speaks in cryptic sounds and reportedly revives people in its path.</p>
+        </div>
+        <div class="story">
+            <img src="noimage.png" alt="Floating People">
+            <h2>Floating Phenomenon Baffles Scientists</h2>
+            <p>Residents of Jird Land claim to float spontaneously. Experts are skeptical, but the reports keep coming in. Sacrifices and offerings appear in the area as well.</p>
+        </div>
+        <div class="story">
+            <img src="Sighting_G5GS3H.png" alt="Jird Sightings">
+            <h2>Exclusive Interview with a Witness</h2>
+            <p>“It only spoke Jird,” says the witness. “I felt hopeful… somehow.” Descriptions of purple shadows, whispers, and revival phenomena continue to spread.</p>
+        </div>
+        <div class="story">
+            <img src="noimage.png" alt="Jird Land">
+            <h2>Jird Land: Cruel and Whimsical</h2>
+            <p>Jird Land is a place of mystery, murder, and sacrifice. Only one Jird rules here. Its presence is both feared and revered by locals and adventurers alike.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Jird News Network. All reports are subject to verification.
+</footer>
+
+</body>
+</html>
